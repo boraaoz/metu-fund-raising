@@ -1,1 +1,0 @@
-METU Fund-Raising Website

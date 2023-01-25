@@ -26,7 +26,7 @@
     <title>Help People</title>
      <!--Navigation-->
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#">METU Fund Raising</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,43 +46,47 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Galeri</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Etkinlikler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bize Ulaşın</a>
       </ul>
-      <button>Destek Ol! </button>
+      <button>Destek Ol!</button>
     </div>
   </nav>
 
   <!-- Header stops here -->
 
 </head>
-<body>
-    <section class="textStyle1 banner">
-        <h1>Let's Help Those Who Are More In Need</h1>
-        <p>Help people who are affected by climate change. Disasters are hitting our country. People are suffering from that. Help them to improve their life.</p>
-        <button title="Click For Donate">Donate Now</button>
-    </section>
 
+<body>
+    <!-- start of the carousel  -->
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+        <!-- start of carousel inner -->
+        <div class="carousel-inner" role="listbox">
+          <!-- start of first slide -->
+          <div class="carousel-item active" style="background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(./images/bg1.jpeg) no-repeat; background-size:cover;">
+            <div class="carousel-caption text-center text-white">
+              <h1 class="caption__heading">Destekleyin Bizi!</h1>
+              <p class="caption__paragraph">
+                Lütfen<br>
+                Bize<br>
+                Destek Olun!
+              </p>
+              <button class="button2">Destek Ol!</button>
+            </div>        
+          </div>
+          <!-- end of first slide -->
+        </div>
+        <!-- end of carousel inner -->
+      </div>
     <section class="textStyle2">
         <h1>Donate Today</h1>
         <p>You can donate your money to them by us. You can donate now. Please help them by donating.</p>
-        <div class="flexStyle1">
-            <div class="boxStyle1">
-                <h2>100tk</h2>
-            </div>
-            <div class="boxStyle1" id="activeBox">
-                <h2>200tk</h2>
-            </div>
-            <div class="boxStyle1">
-                <h2>500tk</h2>
-            </div>
-            <div class="boxStyle1">
-                <h2>1000tk</h2>
-            </div>
-            <div class="boxStyle1">
-                <h2>5000tk</h2>
-            </div>
-        </div>
+  
         <div>
-            <input type="text" placeholder="Other Amount (Taka)">
+          
             <br>
             <button title="Click For Donate">Donate Now</button>
         </div>
@@ -92,12 +96,12 @@
         <p class="thirdSecPar">There are three donation plans we have. You can choose which you want to do or you can choose multiple of them.</p>
         <div class="flexStyle2">
             <div class="boxStyle2" id="firstGrid">
-                <img src="icons/food.png" alt="" class="icons">
+                <img src="images/bg1.jpeg" alt="" class="icons">
                 <h2 class="gridHeader">Food for a family</h2>
                 <p class="gridPar">You can provide food for a family.</p>
             </div>
             <div class="boxStyle2" id="secGrid">
-                <img src="icons/shelter.png" alt="" class="icons">
+                <img src="icons/shelr.png" alt="" class="icons">
                 <h2 class="gridHeader">Shelter for a family</h2>
                 <p class="gridPar">You can provide shelter for a family</p>
             </div>
@@ -113,14 +117,12 @@
         <p class="spcSecStylePar">Let's help people, who need it most. People are suffering. Your donation can bring a smile to their face. So, please help them how much you can.</p>
         <div class="flexStyle2">
             <div class="spcSecStyle1">
-                <img src="images/box1.jpg" alt="">
+                <img src="images/bg2.jpeg"style="background: url(./images/bg3.jpeg) no-repeat; background-size:contain; alt="">
                 <p>Sylhet Flood Donation</p>
-                <button title="Click For Donate">Donate Now</button>
             </div>
             <div class="spcSecStyle1">
-                <img src="images/box2.jpg" alt="">
-                <p>Flood Rehabilitation Program</p>
-                <button title="Click For Donate">Donate Now</button>
+                <img src="images/bg2.jpeg"style="background: url(./images/bg3.jpeg) no-repeat; background-size:contain; alt="">
+                    <p>Flood Rehabilitation Program</p>
             </div>
         </div>
     </section>
@@ -135,8 +137,5 @@
         </div>
     </section>
 </body>
-<footer>
-    <h1>Be Humble</h1>
-    <p>I'm gonna do it</p>
-</footer>
+
 </html>

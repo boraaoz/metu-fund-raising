@@ -25,9 +25,19 @@ body{
 button{
     color: white;
     background-color: #FF5959;
-    font-size: 25px;
+    font-size: 13px;
     font-weight: bold;
-    padding: 20px 30px;
+    padding: 13px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+.button2{
+    color: white;
+    background-color: #FF5959;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 30px;
     border-radius: 8px;
     cursor: pointer;
     border: 0px;

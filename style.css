@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.textStyle1{
+    color: white;
+    text-align: center;
+    padding: 150px;
+}
+
+.textStyle1 h1{
+    font-size: 90px;
+    padding: 25px 250px;
+}
+
+.textStyle1 p{
+    font-size: 25px;
+    padding: 0px 350px 50px 350px;
+}
+
+button{
+    color: white;
+    background-color: #FF5959;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.banner{
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px -500px 500px -80px rgba(0, 0, 0, 0.7);
+}
+
+.textStyle2{
+    text-align: center;
+    padding: 150px;
+}
+
+.textStyle2 h1{
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+
+.textStyle2 p{
+    font-size: 25px;
+    padding: 25px 350px;
+    color: #707070;
+}
+
+.flexStyle1{
+    display: flex;
+    margin: 50px 300px;
+}
+
+.boxStyle1{
+    padding: 50px 25px;
+    background-color: #FAFAFA;
+    margin: auto;
+    color: #707070;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#activeBox{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.textStyle2 input{
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 2px solid #dadada;
+    outline: none;
+    color: #707070;
+    font-size: 25px;
+    text-align: center;
+}
+
+.textStyle3{
+    text-align: center;
+    padding: 50px 150px 50px 150px;
+}
+
+.thirdSecHeader{
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+
+.thirdSecPar{
+    font-size: 25px;
+    padding: 25px 350px;
+    color: #707070;
+}
+
+.flexStyle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxStyle2{
+    padding: 25px 25px;
+    margin: 15px 15px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+#firstGrid{
+    background-color: #EDF5F6;
+    text-align: left;
+}
+
+#secGrid{
+    background-color: #FFEEEE;
+    text-align: left;
+}
+
+#thiGrid{
+    background-color: #FFF4D6;
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+}
+
+footer h1{
+    font-size: 45px;
+    color: #FF5959;
+    padding: 50px;
+    font-family: 'Lobster Two', cursive;
+}
+
+footer p{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 50px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.gridHeader{
+    font-size: 30px;
+    padding: 25px 0px;
+}
+
+.gridPar{
+    font-size: 25px;
+    color: #707070;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    padding-top: 50px;
+}
+
+#subBtn{
+    color: white;
+    background-color: #FF5959;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    border: 0px;
+    position: relative;
+    left: -5px;
+}
+
+.subSecStyle{
+    background-color: #FFF4D6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.subSecStyle input{
+    width: 40%;
+    border: none;
+    outline: none;
+    margin: 0;
+    color: #707070;
+    font-size: 25px;
+    text-align: left;
+    background-color: #D9D9D9;
+    padding: 20px 40px;
+    border-radius: 8px 0 0 8px;
+}
+
+.spcSecStyle1{
+    margin: 0 35px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 20px 1px grey;
+    border-radius: 15px;
+    width: 600px;
+    height: 750px;
+}
+
+.spcSecStyle1 img{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 45px;
+}
+
+.spcSecStyle1 p{
+    font-size: 25px;
+    width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #707070;
+}
+
+.spcSecStylePar{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px 80px 50px;
+    color: #707070;
+}

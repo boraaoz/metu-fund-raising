@@ -8,7 +8,7 @@ body {
 
 /*Navbar*/ 
 .navbar .navbar-brand {
-	margin-left: 50px;
+	margin-left: -50px;
 }
 
 .navbar .collapse .navbar-nav {

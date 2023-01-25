@@ -6,6 +6,9 @@ body{
     font-family: 'Yantramanav', sans-serif;
 }
 
+.logo2 {
+    width: 10rem;
+}
 .textStyle1{
     color: white;
     text-align: center;
@@ -24,7 +27,7 @@ body{
 
 button{
     color: white;
-    background-color: #FF5959;
+    background-color: rgb(200, 50,60);
     font-size: 13px;
     font-weight: bold;
     padding: 13px 30px;
@@ -34,11 +37,11 @@ button{
 }
 .button2{
     color: white;
-    background-color: #FF5959;
-    font-size: 30px;
+    background-color:  rgb(200, 50,60);
+    font-size: 20px;
     font-weight: bold;
-    padding: 30px 30px;
-    border-radius: 8px;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
     cursor: pointer;
     border: 0px;
 }

@@ -18,24 +18,23 @@ body{
 }
 
 .carousel-item {
-    height: 84vh;
+    height: 88vh;
 }
 
 .carousel-caption {
     position: absolute;
     height: 100%;
     top: 10%;
-    text-shadow: 2px 2px #000000;
 }
 
 .caption__heading {
-    font-size: 6rem;
+    margin-top: 7rem;
     font-weight: bold;
-    line-height: 7.5rem;
+    font-family:sans-serif;
 }
 
 .caption__paragraph {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 500;
     line-height: 1.8rem;
     margin-bottom: 2rem;

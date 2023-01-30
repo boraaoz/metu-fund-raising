@@ -18,17 +18,17 @@ body{
 }
 
 .carousel-item {
-    height: 88vh;
+    height: 100vh;
 }
 
 .carousel-caption {
     position: absolute;
     height: 100%;
-    top: 10%;
 }
 
 .caption__heading {
-    margin-top: 7rem;
+    margin-top: 15rem;
+
     font-weight: bold;
     font-family:sans-serif;
 }
